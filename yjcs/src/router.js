@@ -26,11 +26,11 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      component: ( ) => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
       path: '/model',
-      component: () => import(/* webpackChunkName: "about" */ './views/Model')
+      component: ( ) => import(/* webpackChunkName: "about" */ './views/Model')
     },
     {
       path: '/usermanage',
